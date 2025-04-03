@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+Nombre: Pablo Lin
+Curso: 1DAW 
+Fecha: 1/04/2025 
+Ejercicio: XML_DTD_CUENTOS
+ -->
+<!DOCTYPE cuento SYSTEM "Cuentos.dtd">
+<!--Información sobre los cuentos-->
+<cuento cod="A13" titulo="Tarzán y sus amigos" genero="infantil">
+<!--Información sobre los personajes del cuento-->
+    <personajes>
+        <personaje id="A23" tipo="principal">
+            <nombre>Tarzán</nombre>
+            <genero_personaje>M</genero_personaje>
+            <descripcion>
+                Tarzán es un hombre salvaje criado en la jungla, con una fuerza y agilidad sobresalientes. 
+                Su piel bronceada está marcada por cicatrices de su vida entre los animales. Su cabello oscuro 
+                y desordenado enmarca un rostro fuerte y decidido, con ojos penetrantes que reflejan su conexión 
+                profunda con la naturaleza. Su presencia es imponente, pero su espíritu es libre y noble, siempre 
+                guiado por el instinto y la lealtad a la selva.
+            </descripcion>
+            <imagen>https://vignette.wikia.nocookie.net/disney/images/6/64/Walt-Disney-Characters-image-walt-disney-characters-36379736-5760-3240.jpg/revision/latest/scale-to-width-down/2000?cb=20140730004022</imagen>
+        </personaje>
+    </personajes>
+    <!--Historia del cuento-->
+    <trama>
+        Un niño llamado Tarzán es criado por gorilas en la selva después de que sus padres mueran. Al crecer, descubre que 
+        es humano y conoce a Jane, una exploradora. Juntos enfrentan al malvado cazador Clayton, quien amenaza a los gorilas. 
+        Tarzán elige pertenecer a su humanidad y proteger su hogar en la selva.
+    </trama>
+    <precio moneda="eur">3.05</precio>
+</cuento>

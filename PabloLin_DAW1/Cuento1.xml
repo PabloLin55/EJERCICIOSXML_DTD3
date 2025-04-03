@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--  
+Nombre: Pablo Lin
+Curso: 1DAW 
+Fecha: 1/04/2025 
+Ejercicio: XML_DTD_CUENTOS
+ -->    
+<!DOCTYPE cuento SYSTEM "Cuentos.dtd">
+<!--Información sobre los cuentos-->
+<cuento cod="A12" titulo="Los reinos de Arzán" genero="fantasía">
+<!--Información sobre los personajes del cuento-->
+    <personajes>
+        <personaje id="C55" tipo="antagonista">
+            <nombre>Gargamel</nombre>
+            <genero_personaje>M</genero_personaje>
+            <descripcion>
+                Gargamel es un ser sombrío y cruel, cuyo corazón se ha vuelto tan negro como las tierras que habita. 
+                Criado en las profundidades de un bosque maldito, tiene una sed insaciable de poder. Su alma está marcada por la 
+                traición, la ambición desmedida y una oscura búsqueda por dominar los secretos de la magia prohibida. Raramente
+                muestra emociones, y sus ojos destilan una frialdad que hiela el alma. Su presencia genera incomodidad, y su risa
+                maliciosa resuena en la mente de aquellos que osan desafiarlo.
+            </descripcion>
+            <descripcion_fisica>
+                Gargamel es un hombre de complexión delgada pero fuerte, con una altura imponente que se alza en la oscuridad. 
+                Su piel es pálida, casi grisácea, como si nunca hubiera visto la luz del sol. Sus cabellos negros, desordenados 
+                y con mechones grises, caen sobre su rostro, cubriendo parcialmente sus ojos penetrantes de un azul frío. Tiene 
+                una barba puntiaguda y una cicatriz que le cruza la mejilla derecha, un vestigio de su largo paso por la magia 
+                peligrosa. Sus manos son largas y huesudas, adornadas con anillos de metal oscuro que chisporrotean con energía.
+            </descripcion_fisica>
+        </personaje>
+
+        <personaje id="B31" tipo="principal">
+            <nombre>Leo</nombre>
+            <genero_personaje>M</genero_personaje>
+            <descripcion>
+                Leo es valiente, audaz y siempre dispuesto a proteger a los inocentes. Su nobleza se refleja en cada acción, 
+                y su deseo de justicia nunca flaquea. Con un espíritu inquebrantable, es un líder natural que inspira confianza 
+                y esperanza a quienes lo rodean. Aunque a menudo sereno, su furia es temida cuando la injusticia prevalece.
+            </descripcion>
+            <descripcion_fisica>
+                Leo es un hombre de complexión atlética y alto, con músculos definidos que reflejan su entrenamiento constante. 
+                Su cabello castaño claro, corto y despeinado, resalta en contraste con sus ojos verdes, siempre llenos de 
+                determinación. Su rostro es cuadrado, con una mandíbula fuerte, y su sonrisa, aunque rara, ilumina su rostro 
+                de forma contagiosa.
+            </descripcion_fisica>
+        </personaje>
+    </personajes>
+    <!--Historia del cuento-->
+    <trama>
+        Gargamel, un hechicero malvado, roba la energía de los reinos flotantes para conquistar el cielo. Leo, un joven 
+        guerrero con la Espada Celestial, se enfrenta a él. Tras una batalla épica, Leo destruye la piedra mágica de Gargamel, 
+        devolviendo la paz a los reinos. El héroe es proclamado protector del cielo.
+    </trama>
+    <precio moneda="eur">5.05</precio>
+    <etiqueta nombre="etiqueta1"/>
+</cuento>
